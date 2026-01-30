@@ -4,7 +4,7 @@ public:
         unordered_set<int> seen;
         for (int num : nums) {
             if (seen.count(num)) {
-                return true; // Tìm th?y s? trùng
+                return true; 
             }
             seen.insert(num);
         }
